@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+/* Message*/
+        textarea {
+            width: 100%;
+            padding: 12px 10px;
+            margin: 8px 0;
+            border: 3px solid #ccc;
+            box-sizing: border-box;
+            height: 150px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+
+        input[type=submit] {
+            background-color: #4aaaa5;
+            border: none;
+            color: white;
+            padding: 10px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="name_t">
+            <h2>Contact</h2>
+        </div>
+        <!--Navegation bar-->
+        <div id="linkz">
+            <ul>
+                <li>
+                    <a href="index.html"> About </a>
+                </li>
+                <li>
+                    <a href="portfolio.html"> Porfolio </a>
+                </li>
+                <li>
+                    <a href="contact.html"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <section>
+            <div>
+                <form>
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Your name...">
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="Email" placeholder="YourEmail@...">
+                </form>
+                <form>
+                    <label for="fname">Message</label>
+                    <textarea placeholder="Write something..." type="tex"></textarea>
+                </form>
+                <input type="submit" value="Submit">
+        </section>
+        <aside>
+            <h2 id="con">Contact me</h2>
+            <hr>
+            <!--Contact center icons-->
+            <div id="icons">
+                <div>
+                    <a href="https://github.com/jhanisusM" target="_blank">
+                        <img src="assets/images/github.png" width="50px" height="50px">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/jhanisus/" target="_blank">
+                        <img src="assets/images/linkedin.png" width="50px" height="50px">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://stackoverflow.com/users/8730147/jhanisusm" target="_blank">
+                        <img src="assets/images/stackoverflow.png" width="50px" height="50px">
+                    </a>
+                </div>
+            </div>
+        </aside>
+        </div>
+        <footer>
+            Copyrigh2018 Jhanisus Melendez
+        </footer>
+</body>
+
+</html>
