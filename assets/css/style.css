@@ -92,7 +92,7 @@ img{
 /*Footer
 --------------------------------------*/
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border-top: 5px solid #4aaaa5;
     width: 100%;
