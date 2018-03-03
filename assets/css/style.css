@@ -36,8 +36,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    width: 300px;   
-}
+   }
 
 
 li a {
@@ -57,13 +56,10 @@ li a:hover, a:active {
 
 /* Main body
 ------------------------------------------*/
-section{
+.sec1{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1.5%;
-    float: left;
+    padding: 17px;
     margin-top: 27px;
-    margin-left: 15%;
-    width: 650px;
     color: #777777;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -74,19 +70,16 @@ img{
    float: left;
 }
 
-#abt, #con, #Portfolio {
+#titulo {
     color: #4aaaa5;
     font-family:'Vollkorn', serif;
 }
 
-aside{
+.sec2{ 
+    height: 50%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 17px;
-    margin-left: 40px;
-    float: left;
     margin-top:27px;
-    width: 270px;
-    color: #777777;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -99,10 +92,9 @@ aside{
 /*Footer
 --------------------------------------*/
 footer{
-    position: fixed;
-    bottom: 0;  
+    position: absolute;
+    bottom: 0;
     border-top: 5px solid #4aaaa5;
-    float: left;
     width: 100%;
     color: white;
     font-size: 10px;
