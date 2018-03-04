@@ -9,28 +9,17 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <style>
-        #box {
-            position: relative;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-
-        /*Properties for images*/
+        /*Properties of tiles*/
 
         .boxes {
-            z-index: -1;
-            float: left;
-            margin: 0;
-            padding: 0 10%;
-            margin-bottom: 1%;
+            overflow: auto;
+            height: 570px;
         }
 
         .tags {
-            padding: 10;
-            background-color: #4aaaa5;
-            width: 150px;
             text-align: center;
+            width: 150px;
+            background-color: #4aaaa5;
             color: white;
         }
 
@@ -42,8 +31,8 @@
 
 <body>
     <!--Navegation bar-->
-    <nav class="navbar navbar-default navbar-static-top" id="navegante">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top" id="navegante">
+        <div class="container">
             <div class="navbar-header" id="name_t">
                 <a class="navbar-brand">Portfolio</a>
             </div>
@@ -63,74 +52,109 @@
         </div>
     </nav>
 
+
+
+
+
+
     <!--Main section-->
     <div class="container">
         <div class="row">
-            <div class="col-8 sec1">
+            <div class="col-8 sec1 boxes">
                 <h2 id="titulo">Portfolio</h2>
                 <hr>
                 <div class="row">
-                    <div class=" col-4 tags">
+                    <!--VR-->
+                    <div class="col-1"></div>
+                    <div class="col-2">
                         <img src="assets/images/VR.jpg" alt="Porfolio Picture" width="150px" height="150px">
                         <a href="#VR" alt="VR">
                             <p id="test" class="tags">VR</p>
                         </a>
                     </div>
-                    <div class=" col-4 tags">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <!--RPG-->
+                    <div class="col-2">
                         <img src="assets/images/rpg.jpg" alt="Porfolio Picture" width="150px" height="150px">
                         <a href="#RPG" alt="RPG">
                             <p id="test" class="tags">RPG</p>
                         </a>
                     </div>
+                    <div class="col-2"></div>
                 </div>
+
                 <div class="row">
-                    <div class=" col-4 tags">
+                    <!--Classic Games-->
+                    <div class="col-1"></div>
+                    <div class="col-2">
                         <img src="assets/images/hang.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#ClassicGames" alt="Classic games">
+                        <a href="#ClassicGames" alt="VR">
                             <p id="test" class="tags">Classic Games</p>
                         </a>
                     </div>
-                    <div class=" col-4 tags">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <!--Tech Industry-->
+                    <div class="col-2">
                         <img src="assets/images/tech.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#TechnologyIndustry" alt="Technology Industry">
-                            <p id="test" class="tags">Technology Industry</p>
+                        <a href="#Tech" alt="RPG">
+                            <p id="test" class="tags">Tech Industry</p>
                         </a>
                     </div>
+                    <div class="col-2"></div>
                 </div>
+
+
                 <div class="row">
-                    <div class=" col-4 tags">
+                    <!--A.I.-->
+                    <div class="col-1"></div>
+                    <div class="col-2">
                         <img src="assets/images/ai.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#AI" alt="A.I.">
+                        <a href="#A.I." alt="VR">
                             <p id="test" class="tags">A.I.</p>
                         </a>
                     </div>
-                    <div class=" col-4 tags">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <!--Cloud-->
+                    <div class="col-2">
                         <img src="assets/images/cloud.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#Cloud" alt="Cloud Computing">
+                        <a href="#Clouding" alt="RPG">
                             <p id="test" class="tags">Cloud Computing</p>
                         </a>
                     </div>
+                    <div class="col-2"></div>
                 </div>
+
                 <div class="row">
-                    <div class=" col-4 tags">
-                        <img src="assets/images/cyber.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#cyber" alt="Cyber Security">
-                            <p id="test" class="tags">Cyber Security</p>
-                        </a>
+                        <!--A.I.-->
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <img src="assets/images/cyber.jpg" alt="Porfolio Picture" width="150px" height="150px">
+                            <a href="#Cyber" alt="VR">
+                                <p id="test" class="tags">Cyber Security</p>
+                            </a>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-2"></div>
+                        <!--Cloud-->
+                        <div class="col-2">
+                            <img src="assets/images/medical.jpg" alt="Porfolio Picture" width="150px" height="150px">
+                            <a href="#Medical" alt="RPG">
+                                <p id="test" class="tags">Biomedical Tech</p>
+                            </a>
+                        </div>
+                        <div class="col-2"></div>
                     </div>
-                    <div class=" col-4 tags">
-                        <img src="assets/images/medical.jpg" alt="Porfolio Picture" width="150px" height="150px">
-                        <a href="#BiomedicalTech" alt="Biomedical Technology">
-                            <p id="test" class="tags">Biomedical Technology</p>
-                        </a>
-                    </div>
-                </div>
+
             </div>
+            <!--Spacer-->
             <div class="col-1"></div>
+            <!--Contact center icons-->
             <div class="col-3 sec2">
                 <h2 id="titulo">Contact me</h2>
                 <hr>
-                <!--Contact center icons-->
                 <div id="icons">
                     <div>
                         <a href="https://github.com/jhanisusM" target="_blank">
@@ -150,6 +174,28 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+        <!--<div class="container">
+  
+
+  
+  
+  
+                <img src="assets/images/cyber.jpg" alt="Porfolio Picture" width="150px" height="150px">
+                <a href="#cyber" alt="Cyber Security">
+                    <p id="test" class="tags">Cyber Security</p>
+                </a>
+  
+  
+                <img src="assets/images/medical.jpg" alt="Porfolio Picture" width="150px" height="150px">
+                <a href="#BiomedicalTech" alt="Biomedical Technology">
+                    <p id="test" class="tags">Biomedical Technology</p>
+                </a>
+    </div>-->
     </div>
     <footer>
         Copyrigh2018 Jhanisus Melendez
